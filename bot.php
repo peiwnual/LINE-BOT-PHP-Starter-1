@@ -20,11 +20,11 @@ if (!is_null($events['events'])) {
 			$messages = [
 				[
 				'type' => 'text',
-				'text' => $text.'/'.$replyToken
+				'text' => $text.'/'.$replyToken,
 				],
 				[
 				'type' => 'text',
-				'text' => $text.'/////'.$replyToken
+				'text' => $text.'/////'.$replyToken,
 				]
 			];
 
